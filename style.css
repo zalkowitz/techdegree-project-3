@@ -1,0 +1,238 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  margin:0;
+  padding:0;
+  
+  background-color:#fff;
+}
+
+label {
+    font-size:12px;
+    color:#999;
+    display:block;
+  }
+.title-bar {
+  background-color: #000;
+  padding:8px;
+ width:100%;
+  margin:0 auto;
+}
+.title-text {
+  color:#fff;
+  text-align:center;
+  font-size:16px;
+}
+.wrapper {
+  padding:10px;
+}
+
+.newsletter-text {
+  text-align: center;
+  border-bottom:6px double #000;
+  margin-bottom:20px;
+  color:#999;
+}
+
+legend {
+  font-size:16px;
+  padding:0;
+  margin:0;
+}
+.legend-2 {
+    padding-top:20px;
+  
+}
+.newsletter-signup {
+ color:#000;
+  font-size:16px;
+} 
+.newsletter-text-2 {
+  font-size:14px;
+  color:#999;
+  
+  width:100%;
+} 
+
+
+
+form {
+  margin:0 auto;
+ margin-top: 3px;
+ padding:10px;
+  }
+  ul {
+    list-style-type: none;
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+ 
+ ::placeholder{
+   text-align:right;
+   color:#999;
+   vertical-align: middle;
+   opacity: .7;
+  font-size:12px;
+  font-style:italic; 
+ }
+ 
+#state{
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px solid #eee;
+ width:100%;
+ height:35px;
+}
+ 
+ .newsletter-form input {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #eee;
+   width:100%;
+   height:35px;
+  }
+legend {
+  margin-bottom:10px;
+}
+  fieldset {
+    width:100%;
+    border:transparent;
+    padding:0;
+  }
+  input#zip-code {
+    margin-bottom:20px;
+    width:40%;
+    height:35px;
+  }
+  input:focus{
+    border-color: #000; 
+  }
+  textarea:focus {
+    border-color: #000;
+  }
+  input[type=text]:focus {
+    border-color: #000;
+  }
+  #state:focus {
+    border-color: #000; 
+  }
+  
+  
+
+
+.radio-button > span {
+  color: #999;
+  padding: 0.5rem 0.25rem;
+}
+.radiobox input {
+  height: 15px;
+  width: 15px;
+  padding:0;
+  margin-left:0;
+  margin-right:2px;
+  margin-bottom: -1px;
+}
+.checkboxes {
+    display:inline-block; 
+    position:relative; 
+ } 
+ .checkboxes input {
+    display:inline-block; 
+    width:20px;
+    height:15px;
+ }
+ .checkboxes label {
+    display:inline-block;    
+     width:120px;
+     height:20px;
+     margin-left:5px;   
+ }
+
+
+label.topics {
+display:block;
+font-size:12px;
+color:#999; 
+width:100%;
+}
+
+
+textarea { 
+width:100%;
+background-color:#eee;
+height:100px;
+border-style:none;
+margin-bottom:20px;
+margin-top:10px;
+color:#999;
+
+}
+
+  
+  button {
+   width:100%;
+   height:40px;
+   background-color:teal;
+   border-radius: 4px;
+   padding:10px;
+   border:transparent;
+   font-size:18px;
+   color:white
+  }
+ 
+  input:focus, textarea:focus {
+    background-color: #eee;
+    border: 1px solid #000;
+}
+.code {
+  font-size:12px;
+  color:#999;
+  text-align: center;
+  font-style:italic;
+  margin-top:20px;
+}
+@media only screen and (min-width: 768px)  {
+  .wrapper {
+    width:590px;
+    margin:0 auto;
+  } 
+  fieldset.f-1 label{
+    display: flex;
+    padding-right: 10px;
+  }
+  .form-row {
+      display:flex;
+  }
+   label {
+    font-size:12px;
+    color:#999;
+   width:25%;
+  }
+  .zip-code {
+    width:105px;
+  }
+  .state {
+    width:105px;
+  }
+ #state {
+   width:425px;
+ }
+  .newsletter-form label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  .newsletter-form input {
+    margin: 5px 10px 5px 0;
+  }
+  input#zip-code {
+    width:20%;
+  }
+}

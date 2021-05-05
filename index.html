@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+ <header>
+     <div class="title-bar">
+        <h1 class="title-text">THE CODE REVIEW</h1> 
+     </div>
+ </header>
+    <main>
+    <div class="wrapper">
+        <div class="newsletter-text">
+            <h2 class="newsletter-signup">Signup for our newsletter</h2> 
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+         </div>  
+        <form action="#" method="post" class="newsletter-form">
+           
+            <fieldset class="f-1">
+             
+            <legend>Contact Information</legend>
+                <ul>
+                <li class="form-row">   
+                <label for ="name">Full Name</label> 
+                <input type="text" id="name" name="name" placeholder="Required" > 
+                </li>
+                <li class="form-row">   
+                <label for ="email">Email Address</label> 
+                <input type="email" id="email" name="email" placeholder="Required">
+                </li>
+                <li class="form-row">  
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+                </li>
+                <li class="form-row"> 
+                <label for="address">Street Address</label>
+                <input type="text" id="address" name="address">
+                </li>
+                <li class="form-row"> 
+                <label for="city">City</label>
+                <input type="text" id="city" name="city">
+                 </li>
+                 <li class="form-row"> 
+                <label for="state" class="state">State</label>
+                <select id="state" name="state" >
+                    <option selected>Choose State</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>    
+                  </select>
+                </li> 
+                <li class="form-row">
+                <label for="zip-code" class="zip-code">Zip Code</label>
+                <input type="number" id="zip-code" name="zip-code">
+                </li> 
+                </ul>
+            </fieldset> 
+           <hr/>
+            <fieldset> 
+               
+            <legend class="legend-2">Newsletter</legend>
+            <div class="newsletter-text-2">
+                Select the newsletters you would like to receive</div>
+                <br>
+         
+               <div class="checkboxes">
+                <input 
+                type="checkbox" id="html-news" name="html-news"
+                value="news1">
+               <label for="html-news">HTML News
+                </label><br>
+           
+                <input type="checkbox" id="css-news" 
+                name="css-news"
+                value="news2">
+                <label for="css-news">CSS News
+                </label><br>
+               
+                <input type="checkbox" id="javascript" name="javascript"
+                value="news3">
+                <label for="javascript">Javascript News
+            </label><br><br>
+        </div> <!--end checkboxes-->
+        <div class="newsletter-text-2">Newsletter Format</div>
+       
+            <div class="radiobox"> 
+                
+                <label for="radio-1" class="radio-button">
+                <input type="radio" id="radio-1" name="radio-button" value="radio-1"><span> HTML</span>
+                </label>
+            
+                <label for="radio-2" class="radio-button">
+                <input type="radio" id="radio-2" name="radio-button" value="radio-2"><span> Plain text</span>
+                 </label>
+                
+                 <br>
+            </div> <!--end radiobox-->
+            <div class="messagebox"> 
+                <label for="topics" class="topics">Other topics you'd like to hear about</label>
+                <textarea id="topics" name="topics">     
+                </textarea>
+            </div> <!--end messagebox-->    
+            </fieldset> 
+            <button type="submit">Sign Up</button> 
+       
+       </form>
+    </div><!--wrapper -->  
+       <footer>
+       <p class="code">Copyright The Code Review</p>
+        </footer>
+    
+
+    </main>     
+</body>
+</html>
